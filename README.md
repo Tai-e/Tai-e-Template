@@ -89,7 +89,7 @@ The prepared template provides as little code as possible because it is impossib
 
 ## Build tool configuration file
 
-The build.gradle.kts and pom.xml files are the project configuration files for Gradle and Maven, respectively. There are some generic properties that you need to modify later when working on your own analyzer code.
+The `build.gradle.kts` and `pom.xml` files are the project configuration files for Gradle and Maven, respectively. There are some generic properties that you need to modify later when working on your own analyzer code.
 
 ### Gradle
 
@@ -129,18 +129,10 @@ Entry point class of your analyzer:
 
 ```xml
 <build>
-        <plugins>
 ...
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
+                <mainClass>org.example.MyMain</mainClass>
 ...
-                <configuration>
-                    <mainClass>org.example.MyMain</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+</build>
 ```
 
 Tai-e version specified:
