@@ -26,7 +26,7 @@ application {
     mainClass.set("org.example.MyMain")
 }
 
-val taieVersion = "0.2.2" // or the latest version "0.5.1-SNAPSHOT"
+val taieVersion = "0.5.1" // or the latest version "0.5.2-SNAPSHOT"
 
 dependencies {
     implementation("net.pascal-lab:tai-e:$taieVersion")

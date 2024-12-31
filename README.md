@@ -140,7 +140,7 @@ Tai-e version specified:
 ```xml
 <properties>
 ...
-    <tai-e.version>0.2.2</tai-e.version>
+    <tai-e.version>0.5.1</tai-e.version>
 </properties>
 ```
 
